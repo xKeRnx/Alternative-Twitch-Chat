@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Simple Twitch Chat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h3>Simple Twitch Chat</h3>
+        </div>
+       
+        <div class="card">
+            <div class="card-header">No Userame inserted</div>
+            <div class="message-box">
+                <ul class="list-group list-group-flush" id="message-list" style="height:600px;line-height:3em;overflow:scroll;padding:5px;"></ul>
+                <div class="info"></div>
+            </div>
+            
+        </div>
+
+    </div>
+	<script src="https://rawgit.com/leizongmin/js-xss/master/dist/xss.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="/js/activity.js"></script>
+</body>
+</html>
