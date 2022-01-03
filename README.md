@@ -4,7 +4,7 @@ Alternative Twitch Chat
 * ## Installation 
    * Open command prompt in Alternative-Twitch-Chat folder and run
         ```
-        $ nmp install
+        $ npm install
         ```
 
 * ## Usage
