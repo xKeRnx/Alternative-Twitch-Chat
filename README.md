@@ -2,6 +2,15 @@
 Alternative Twitch Chat
 
 * ## Installation 
-  * $ nmp install
+   * Open command prompt in Alternative-Twitch-Chat folder and run
+        ```
+        $ nmp install
+        ```
+
+* ## Usage
+   * Open command prompt in Alternative-Twitch-Chat folder and run
+        ```
+        $ npm start
+        ```
 
 ![Preview](/ReadMe/twchat.png)
